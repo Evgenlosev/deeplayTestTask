@@ -1,14 +1,9 @@
 package io.deeplay.losev.testTask;
 
-import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
 public class EntityLandform {
-
-//    public static final Map<Character, Integer> HUMAN = Map.of('S', 5, 'W', 2, 'T', 3, 'P', 1);
-//    public static final Map<Character, Integer> SWAMPER = Map.of('S', 2, 'W', 2, 'T', 5, 'P', 2);
-//    public static final Map<Character, Integer> WOODMAN = Map.of('S', 3, 'W', 3, 'T', 2, 'P', 2);
 
     private static Map<Character, Integer> getLandformMap (String entityType){
         List<Entity> entities = ExelParser.parseExcelFile();

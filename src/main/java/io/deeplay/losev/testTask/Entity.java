@@ -12,14 +12,6 @@ public class Entity {
         this.entityLandform = new HashMap<>();
     }
 
-    @Override
-    public String toString() {
-        return "Entity{" +
-                "type='" + type + '\'' +
-                ", entityLandform=" + entityLandform +
-                '}';
-    }
-
     public String getType() {
         return type;
     }
